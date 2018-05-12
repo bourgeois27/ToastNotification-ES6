@@ -1,0 +1,23 @@
+{
+  "name": "laboratoire3",
+  "version": "1.0.0",
+  "description": "Laboratoire 3 GLO-3102",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bourgeois27/ToastNotification-ES6.git"
+  },
+  "author": "Sebastien Bourgeois",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bourgeois27/ToastNotification-ES6/issues"
+  },
+  "homepage": "https://github.com/bourgeois27/ToastNotification-ES6#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
