@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Toastr Notification</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- Corps de la page Web -->
+<body>
+  <div class="container">
+    <h1>Notifications Toast</h1>
+  </div>
+
+  <section id="form">
+    <form>
+      <!-- msg -->
+      <div>
+        <label for="msg">Message :</label>
+        <input type="text" id="msg" class="form-control" placeholder="Entrer votre message ici">
+      </div>
+      <!-- type -->
+      <div>
+        <label for="type">Type de notification :</label>
+        <select name="type" id="type" class="form-control">
+          <option value="success">Success</option>
+          <option value="warning">Warning</option>
+          <option value="error">Error</option>
+          <option value="info">Info</option>
+        </select>
+      </div>
+      <!-- duration -->
+      <div>
+        <label for="duration">Durée :</label>
+        <input type="number" id="duration" class="form-control" min="0" max="3600" value="3">
+      </div>
+    </form>
+  </section>
+
+  <!-- btn -->
+  <div class="container">
+    <button id="trigger" class="btn btn-primary">Visualiser !</button>
+    <button id="clear" class="btn btn-danger">Vider les champs</button>
+  </div>
+
+  <!-- toasts -->
+  <ul class="toastr"></ul>
+
+  <footer>
+    <p>Laboratoire 3 &copy; 2018</p>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
