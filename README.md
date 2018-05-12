@@ -33,3 +33,16 @@ N.B => Chrome version 61+ supporte les modules
 ES6, s'assurer que votre navigateur est à
 jour pour effectuer la correction de ce laboratoire. Il n’est donc pas nécessaire de
 “transpiler” notre laboratoire.
+
+## Procédure :
+S'assurer d'avoir npm installé :
+
+`npm -v`
+
+Installer les dépendances :
+
+`npm install`
+
+Exécuter le http-server:
+
+`npm start`
